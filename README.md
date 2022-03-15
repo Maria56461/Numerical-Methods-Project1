@@ -110,7 +110,7 @@ calculez numarul de imagini evaluate corect.
 
 ## Partea a IV-a: 
 
-	Am folosit 4 functii de la partea a III-a: "rgbHistogram", "rgbTOhsv", 
+Am folosit 4 functii de la partea a III-a: "rgbHistogram", "rgbTOhsv", 
 "hsvHistogram" si "preprocess". La "learn" am scalat pe X in mod vectorizat, 
 am folosit functia "rand" ca sa generez un w random, functia "randperm" ca sa
 aleg 64 de randuri random din X_tilda pe care sa le pun in X_batch, si functia
@@ -120,7 +120,7 @@ III-a, doar ca l-am scalat pe X la inceputul functiei.
 
 ### Feedback:
 
-	O tema foarte foarte interesanta care chiar m-a prins si din care am invatat 
+O tema foarte foarte interesanta care chiar m-a prins si din care am invatat 
 lucruri. Au fost totusi parti din enunt care mi-au dat de gandit si a trebuit sa
 intreb intr-o parte sau in alta ca sa imi clarific enuntul (ar fi putut fi un pic 
 mai clar, sau cu mai multe exemple pe alocuri- mai ales la partile a doua si a
