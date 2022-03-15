@@ -1,4 +1,4 @@
-Partea I :
+## Partea I :
 
   Am observat ca matricea sistemului este una simetrica, patratica, de tip 
 Toeplitz, iar daca labirintul are "rows" randuri, matricea sistemului va avea 
@@ -45,7 +45,7 @@ produsul dintre x la pasul i si matricea de iteratie, cu scopul de a afla x la
 pasul i + 1. Am iterat intr-un "while" pana cand norma erorii absolute este
 mai mica decat toleranta (acesta este criteriul de convergenta ales). 
 
-Partea a II-a : 
+## Partea a II-a : 
 
   Pentru initializare am parcurs lista de resturi posibile la impartirea unui 
 numar la NC si la fiecare pas am pus intr-un vector toti indicii punctelor din 
@@ -70,7 +70,7 @@ aceiasi centroizi ca la pasul "j - 1". Pentru functia de cost, doar am recreat
 matricea de distante pt. setul de centroizi primit ca parametru, am aflat 
 minimul pe coloane si am sumat elementele vectorului obtinut. 
 
-Partea a III-a :
+## Partea a III-a :
 
   Am folosit functia "imread" ca sa citesc imaginea ca matrice tridimensionala. 
 Fiecare dintre cele trei dimensiuni reprezinta una dintre culorile rosu, verde 
@@ -108,7 +108,7 @@ pe "w" aflat la functia "learn" pentru a afla "y_prezicere". In functie de
 fara pisici din director, pe care le-am folosit ca sa parcurg y_prezicere si sa
 calculez numarul de imagini evaluate corect.  
 
-Partea a IV-a: 
+## Partea a IV-a: 
 
 	Am folosit 4 functii de la partea a III-a: "rgbHistogram", "rgbTOhsv", 
 "hsvHistogram" si "preprocess". La "learn" am scalat pe X in mod vectorizat, 
@@ -118,7 +118,7 @@ aleg 64 de randuri random din X_tilda pe care sa le pun in X_batch, si functia
 se gasesc in X_batch. Functia de "evaluate" este similara celei de la partea a 
 III-a, doar ca l-am scalat pe X la inceputul functiei. 
 
-Feedback:
+### Feedback:
 
 	O tema foarte foarte interesanta care chiar m-a prins si din care am invatat 
 lucruri. Au fost totusi parti din enunt care mi-au dat de gandit si a trebuit sa
